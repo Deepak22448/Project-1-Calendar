@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="calendar.css" />
+  </head>
+  <body onload="calendar()">
+    <div class="wrapper">
+
+      <div class="years-display">
+        <div class="current-month">july</div>
+        <span class="prev-btn" onclick="changeMonth('prev')">&#8592</span>
+        <span class="next-btn" onclick="changeMonth('next')"> &#8594</span>
+      </div>
+
+      <div class="weekends">
+        <div>S</div>
+        <div>M</div>
+        <div>T</div>
+        <div>W</div>
+        <div>TH</div>
+        <div>F</div>
+        <div>S</div>
+      </div>
+
+      <div class="dates">
+  
+      </div>
+
+    </div>
+  </body>
+  <script src="calendar.js"></script>
+</html>
